@@ -1,10 +1,10 @@
-#### FLIGHT BOOKING SERVICE
+## FLIGHT BOOKING SERVICE
 
 
-##### API Specification
+### API Specification
 
 
-1. Schedule Flight <br/>
+#### 1. Schedule Flight <br/>
 
  URL : `http://localhost:8085/api/scheduleFlight` <br/>
  Method: POST <br/>
@@ -29,7 +29,7 @@
 -  create entry in [data.sql](src/main/resources/data.sql) to create flight instance.
 
 
-2. Book Seat <br/>
+#### 2. Book Seat <br/>
  URL : `http://localhost:8085/api/bookSeat` <br/>
  Method: POST <br/>
  Request Payload: <br/>
@@ -44,8 +44,7 @@
        "seatId": 3
    }`
  
- 3. Get Available Seats <br/>
- 
+ #### 3. Get Available Seats <br/>
  URL: `http://localhost:8085/api/getAvailableSeats?flightNumber=1` <br/>
  Response Payload : <br/>
  `{
